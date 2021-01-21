@@ -39,7 +39,7 @@ function PhotoGallery() {
         <div className="gallery">
             {
                 data.map(i => <PhotoCard
-                    title={i.title}
+                    title={i.title}       //title is a the prop in photocard
                     url={i.url}
                     description={i.description}
                 />
