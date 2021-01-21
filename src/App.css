@@ -7,6 +7,24 @@
   pointer-events: none;
 }
 
+.img-holder{
+  max-width: 40%;
+  background-color: rgba(95, 23, 128, 0.644);
+  
+  margin-bottom: 3%;
+  border-radius: 10px;
+  
+}
+
+img {
+  width: 100%;
+}
+.gallery{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +32,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #135981;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
